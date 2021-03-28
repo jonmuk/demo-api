@@ -21,6 +21,8 @@ spec:
       - image: lukebond/demo-api:latest
         imagePullPolicy: Always
         name: demo-api
+        securityContext:
+          runAsNonRoot: false
         ports:
         - containerPort: 9000
           protocol: TCP
