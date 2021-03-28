@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/lukebond/demo-api",
   "dependencies": {
-    "ip": "^0.3.1",
-    "restify": "^2.8.1"
+    "ip": "^1.1.5",
+    "restify": "^8.1.0"
   }
 }
