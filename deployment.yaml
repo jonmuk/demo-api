@@ -23,6 +23,9 @@ spec:
         name: demo-api
         securityContext:
           runAsNonRoot: true
+          capabilities:
+            drop:
+              - all
         ports:
         - containerPort: 9000
           protocol: TCP
