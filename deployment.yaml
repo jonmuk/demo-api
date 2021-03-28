@@ -22,10 +22,8 @@ spec:
         imagePullPolicy: Always
         name: demo-api
         securityContext:
-          runAsNonRoot: false
+          runAsNonRoot: true
         ports:
         - containerPort: 9000
           protocol: TCP
       restartPolicy: Always
-      securityContext:
-        runAsNonRoot: false
